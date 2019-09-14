@@ -4,7 +4,7 @@ import { CreateCustomerComponent } from './create-customer/create-customer.compo
 import { CustomerListComponent } from './customer-list/customer-list.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'employee', pathMatch: 'full' },
+  { path: '', redirectTo: 'customer', pathMatch: 'full' },
   { path: 'customers', component: CustomerListComponent },
   { path: 'add', component: CreateCustomerComponent },
 ];
